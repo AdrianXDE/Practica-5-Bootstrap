@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.orson {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em; /* Tamaño grande de las letras */
+    font-weight: 700; /* Grosor de las letras */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Márgenes alrededor del título */
+}
+.orson2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em; /* Tamaño grande de las letras */
+    font-weight: 700; /* Grosor de las letras */
+    color: #D38C8C; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Márgenes alrededor del título */
+}
+
+.orson3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em; /* Tamaño grande de las letras */
+    font-weight: 700; /* Grosor de las letras */
+    color: #9d6a6a; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Márgenes alrededor del título */
+}
+header {
+    background-color: #D38C8C;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+/* Ejemplo de ajustes personalizados para la navbar y el logo */
+.navbar-brand img {
+    max-height: 1000px; /* Ajusta la altura máxima del logo */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+.navbar-nav .nav-link{
+    color: #584910;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #eaeabe;
+    color: #201f1f;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #626262;
+}
+
+.button:active {
+    background-color: #000000;
+}
+
+.FotoPre{
+    width: auto;
+    height: 500px;
+    background: #21842530;
+  /*  background-color: #E9E9D6;*/
+    background-image: url(/Fotos_Depresión/Orson\ estetic.png);
+
+}
+
+.card-body{
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+
+
+.Pachi{
+    width: auto;
+    height: 500px;
+    background: #21842530;
+    align-items: center;
+    text-align: end;
+    background-image: url(/Fotos_Depresión/Poetry.png);
+    
+}
+.Pachi2{
+    width: auto;
+    height: 500px;
+    background: #21842530;
+    align-items: center;
+    background-image: url(/Fotos_Depresión/Fvck.png);
+}
+
+.FotoSVG2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+
+.AKA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+   
+/* Estilo para la imagen en la esquina */
+.position-relative {
+    position: relative;
+}
+
+.corner-img {
+    position: absolute;
+    bottom: 10px; /* Ajusta según sea necesario */
+    right: 10px; /* Ajusta según sea necesario */
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+}
+
+/**/
+/* Estilo para la imagen en la esquina */
+.position-relative {
+    position: relative;
+}
+
+.Esquina-img {
+    position: absolute;
+    bottom: 10px; /* Ajusta según sea necesario */
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.bottom-left {
+    left: 10px; 
+}
+
+.bottom-right {
+    right: 10px; /* Ajusta según sea necesario */
+}
+
+.Rotadete {
+    transform: rotate(15deg); /* Rota la imagen 15 grados */
+    border: 5px solid #218425; /* Añade un marco a la imagen */
+    padding: 5px; /* Espacio entre la imagen y el borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra a la imagen */
+    position: absolute;
+    top: 15%; /* Ajusta según sea necesario */
+    left: 80%; /* Comienza desde la mitad hacia la derecha */
+    transform: translate(-50%, -50%) rotate(15deg); /* Centra y rota la imagen */
+}
+
+.Centradete{
+   position: absolute;
+    bottom: 50px; 
+    right: 50px; 
+    width: 100px; 
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*Cartas*/
+.POU {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.XD {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.XD img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+.P {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.xdhijo {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 1200px) {
+    .XD {
+        flex: 1 1 calc(33.333% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .XD {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .XD {
+        flex: 1 1 100%;
+    }
+}
+/*termina parte de las cartas*/
+
+/*dibujitos*/
+
+/* Media query para ajustar estilos en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .orson2 {
+        font-size: 30px; /* Reducir el tamaño de la fuente en pantallas más pequeñas */
+        line-height: 1.3; /* Reducir el espaciado entre líneas en pantallas más pequeñas */
+        margin: 10px 0; /* Reducir el margen superior e inferior en pantallas más pequeñas */
+    }
+}
+
+  
+
